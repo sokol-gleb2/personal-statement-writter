@@ -1,0 +1,16 @@
+img[src="AtlasError.png"] {
+  display: block;
+  max-width: 30%;
+}
+
+#error {
+    font-family: monospace;
+    font-size: 17px;
+    color: red;
+    width: fit-content;
+    margin: auto;
+}
+
+p {
+    font-family: Helvetica;
+}

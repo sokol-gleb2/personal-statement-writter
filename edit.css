@@ -1,0 +1,289 @@
+#header{
+  margin: 0;
+  /* width: 100%; */
+  height: 40px;
+  font-family: 'Helvetica';
+  background-color: #E5E5E5;
+  padding-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.header{
+  display:inline-block;
+  /* border: 2px solid red; */
+  /* width: 33%; */
+  text-align: center;
+}
+
+
+.home_button{
+  /* width: wrap; */
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.home_button:hover{
+  background-color: #a31621;
+  color: #E5E5E5 !important;
+}
+
+.about_button{
+  /* margin-left: 100px; */
+  /* width: wrap; */
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about_button:hover{
+  background-color: #a31621;
+  color: #E5E5E5 !important;
+}
+
+
+.help_button{
+  /* margin-left: 100px; */
+  /* width: wrap; */
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.help_button:hover{
+  background-color: #a31621;
+  color: #E5E5E5 !important;
+}
+
+
+
+/* .header {
+  float: left;
+  display: flex;
+}
+.header.space-between {
+  justify-content: space-between;
+} */
+
+
+#banner{
+  margin:auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.float-child {
+    width: 33%;
+    height: 100px;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+    display:inline-block;
+}
+
+#questionsBanner{
+  width: 100%;
+  height: 60px;
+  float: right;
+  margin-top: 15px;
+  background-color: black;
+  /* box-shadow: 2px 2px 15px 5px darkgrey; */
+}
+
+#questionsButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#questionsButton:hover{
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#previewBanner{
+  width: 100%;
+  height: 90px;
+  float: left;
+  background-color: #a31621;
+  margin-left: 1px;
+  margin-right: 1px;
+  /* box-shadow: 0 0 5px grey; */
+}
+
+#previewButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#previewButton:hover{
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#finalBanner{
+  width: 100%;
+  height: 60px;
+  float: right;
+  margin-top: 15px;
+  background-color: black;
+  margin-left: 2px;
+  /* box-shadow: 2px 2px 15px 5px darkgrey; */
+}
+
+#finalButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#finalButton:hover{
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.saveButton {
+  border-radius: 50px;
+  background-color: #a31621;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  width: 400px;
+  height: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.saveButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.saveButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.saveButton:hover span {
+  padding-right: 25px;
+}
+
+.saveButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.center{
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+#container {
+    width: 60%;
+    height: 70%;
+    left: 20%;
+    top: 15%;
+    border: 2px solid black;
+    /* top: 0; */
+    position: fixed;
+    /* visibility: hidden;
+    display: none; */
+    background-color: white; /* complimenting your modal colors */
+}
+
+.btn_cancel{
+  margin: auto;
+  width: 110px;
+  height: 40px;
+  background-color: #A31621;
+  color: white;
+}
+
+.btn_cancel:hover{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#parEdit {
+    border-radius: 10px;
+    border-color: black;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    background-color: #A31621;
+    box-shadow: 2px 2px 15px 5px darkgrey;
+    margin-bottom: 30px;
+}
+
+#parEditButton{
+  border-radius: 10px;
+  border-color: black;
+  width: 100%; height: 100%; background-color: #A31621;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#parEditButton:hover{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+img[src="parEditImg.png"] {
+  display: block;
+  max-width: 20%;
+  margin: auto;
+}
+
+.qs{
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0.5%;
+}

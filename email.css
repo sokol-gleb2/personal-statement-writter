@@ -1,0 +1,149 @@
+.goBackButton {
+  animation: 0.5s anim-back forwards;
+  position: fixed;
+  top: 5px;
+  left: 2%;
+  width: 15%;
+  min-width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  background-color: inherit;
+  border: 1px solid black
+}
+
+.bodySection {
+  overflow: hidden;
+}
+
+.goBackButton:hover {
+  animation: 0.5s anim forwards;
+  cursor: pointer;
+}
+
+@keyframes anim-back {
+  0% {
+    width: 17%;
+    height: 35px;
+    top: 2.5px;
+    left: 1%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+  }
+  100% {
+    top: 5px;
+    left: 2%;
+    width: 15%;
+    height: 30px;
+    background-color: inherit;
+    color: black;
+    font-size: 15px;
+  }
+}
+
+@keyframes anim {
+  100% {
+    width: 17%;
+    height: 35px;
+    top: 2.5px;
+    left: 1%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+  }
+}
+
+.goBackButton:hover > .goBackWriting::before {
+  content: "<<  ";
+}
+
+.form {
+  font-size: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  width: 70%;
+  border-radius: 20px;
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 15%;
+  border: 1px solid black;
+}
+
+.students {
+  float: right;
+  height: 25px;
+  width: 50%;
+}
+
+.subject {
+  float: right;
+  height: 25px;
+  width: 75%;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+
+.bodyType {
+  float: right;
+  resize: none;
+  width: 75%;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+.submitButton {
+  animation: 0.5s hov-back forwards;
+  width: 20%;
+  height: 30px;
+  background-color: #a31621;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.submitButton:hover {
+  cursor: pointer;
+  animation: 0.5s hov forwards;
+}
+
+@keyframes hov {
+  100% {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 17px;
+  }
+}
+
+@keyframes hov-back {
+  0% {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 17px;
+  }
+  100% {
+    background-color: #a31621;
+    border: 1px solid black;
+    font-size: 15px;
+  }
+}
+
+
+.bg {
+  position: absolute;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url(bg.jpeg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* body {
+  line-height: 30px;
+} */

@@ -1,0 +1,247 @@
+#header{
+    width: 98%;
+    margin: auto;
+    height: 50px;
+    background-color: rgba(180, 180, 180, 0.9);
+    border: solid rgba(215, 215, 215, 1) 1px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px darkgrey;
+}
+
+#homeButton{
+    margin-right: 10px;
+}
+
+#atlasButton{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logoutButton {
+    margin-left: 10px;
+}
+
+.form-popup {
+    text-align: left;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.btn_cancel{
+  margin: auto;
+  width: 110px;
+  height: 40px;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn_cancel:hover{
+    cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+img[src="MenuLogoAtlas.png"] {
+    transition: all 0.5s ease;
+  display: block;
+  max-width: 30px;
+  /*max-height: 95%;*/
+  /*margin-left: 5px;*/
+  /*margin-bottom: 2px;*/
+  margin-top: 4px;
+  margin-left: 3px;
+}
+
+#menuLogo:hover{
+    transition: all 0.5s ease;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.home_button{
+  margin-top: 7.5px;
+  height: 35px;
+  background-color: rgba(180, 180, 180, 0.9);
+  border: none;
+}
+
+.home_button:hover{
+    cursor: pointer;
+    border-top: 2px solid #a31621;
+    border-bottom: 2px solid #a31621;
+    transition: all ease-in-out .15s;
+}
+
+.about_button{
+  margin-left: 100px;
+  width: wrap;
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+}
+
+.about_button:hover{
+  background-color: #a31621;
+  color: #E5E5E5 !important;
+}
+
+
+.help_button{
+  margin-left: 100px;
+  width: wrap;
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+}
+
+.help_button:hover{
+  background-color: #a31621;
+  color: #E5E5E5 !important;
+}
+
+.welcome_back {
+  font-size: 40px;
+  font-style: Helvetica;
+}
+
+.header {
+  height: 100%;
+}
+
+
+@keyframes pop {
+  50%  {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes popIn {
+  50%  {
+    transform: scale(0.8);
+  }
+}
+
+img[src="welcome_to_atlas.png"] {
+  display: block;
+  max-width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#welcome_writing{
+  width: 50%;
+  margin: auto;
+  border: 2px solid #A31621;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.startButton {
+  border-radius: 50px;
+  background-color: #a31621;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  width: 380px;
+  height: 95px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.startButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.startButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.startButton:hover span {
+  padding-right: 25px;
+}
+
+.startButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.continueButton {
+    transition: all 1s ease;
+  border-radius: 50px;
+  background-color: #a31621;
+  border: 2px solid black;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  width: 380px;
+  height: 95px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.continueButton:hover {
+    transition: all 1s ease;
+    background-color: black;
+    color: white;
+}
+
+.version {
+    width: 95%;
+    margin: auto;
+}
+
+.version:hover{
+    background-color: rgba(211, 211, 211, 0.7);
+    cursor: pointer;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+}
+
+.statement:hover {
+    background-color: rgba(211, 211, 211, 0.7);
+    cursor: pointer;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
+body{
+  /*background-image: url('neutral-bg.png');*/
+  background-image: url('slide1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

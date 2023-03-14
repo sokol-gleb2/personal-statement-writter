@@ -1,0 +1,428 @@
+#header{
+  margin: 0;
+  /* width: 100%; */
+  height: 40px;
+  font-family: 'Helvetica';
+  background-color: rgba(180, 180, 180, 0.9);
+  border: solid rgba(215, 215, 215, 1) 1px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px darkgrey;
+  padding-top: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.header{
+  margin: auto;
+  display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+
+img[src="MenuLogoAtlas.png"] {
+    transition: all 1s ease;
+  display: block;
+  max-width: 28px;
+  margin-top: -2.5px;
+    /*height: 100%;*/
+  margin-left: 5px;
+  float: left;
+}
+
+#menuLogo:hover {
+    transition: all 1s ease;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+img[src="question_mark.png"] {
+  display: block;
+  max-width: 1.5%;
+  margin-left: 5px;
+  margin-right: 7px;
+  float: left;
+  margin-top: 1.5%;
+}
+
+.home_button{
+  height: 35px;
+  background-color: inherit;
+  border: none;
+}
+
+.home_button:hover{
+    cursor: pointer;
+    border-top: 2px solid #a31621;
+    border-bottom: 2px solid #a31621;
+    transition: all ease-in-out .15s;
+}
+
+.outer {
+    width: 98%;
+    height: 90px;
+    margin: auto;
+    display: flex;
+}
+
+
+.banner{
+    transition: all 1s ease;
+    animation: banner-back 0.5s forwards;
+    cursor: pointer;
+  margin: auto;
+  position: static;
+  width: 33.1%;
+  height: 100%;
+  background-color: #a31621;
+  color: white;
+  border-radius: 5px;
+  font-family: Helvetica;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.banner:hover {
+  animation: banner 0.3s forwards;
+}
+
+@keyframes banner {
+    from {
+        top: 0;        
+    }
+    to {
+        top: 100%;
+        width: 35%;
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+        box-shadow: 2px 2px 15px 5px darkgrey;
+    }
+}
+
+@keyframes banner-back {
+    from {
+        top: 100%;
+        width: 35%;
+        background-color: white;
+        border: 2px solid black;
+        color: black;
+        box-shadow: 2px 2px 15px 5px darkgrey;
+    }
+    to {
+        top: 0;
+        width: 33.1%;
+        background-color: #a31621;
+        border: 0;
+        color: white;
+        box-shadow: 0;
+    }
+}
+
+
+
+.about_button{
+  /* margin-left: 100px; */
+  /* width: wrap; */
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+.help_button{
+  /* margin-left: 100px; */
+  /* width: wrap; */
+  height: 35px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+
+#banner{
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.float-child {
+    width: 33%;
+    height: 100px;
+    /* padding: 20px; */
+    /* border: 2px solid red; */
+    display:inline-block;
+}
+
+#questionsBanner{
+  width: 100%;
+  height: 60px;
+  float: right;
+  margin-top: 15px;
+  background-color: black;
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 15px 5px darkgrey; */
+}
+
+#questionsButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#questionsButton:hover{
+    cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#previewBanner{
+  width: 100%;
+  height: 90px;
+  float: left;
+  background-color: #a31621;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px grey; */
+}
+
+#previewButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#previewButton:hover{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#finalBanner{
+  width: 100%;
+  height: 60px;
+  float: right;
+  margin-top: 15px;
+  background-color: black;
+  margin-left: 2px;
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 15px 5px darkgrey; */
+}
+
+#finalButton{
+  width: 100%; height: 100%; background-color: #a31621;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#finalButton:hover{
+    cursor: pointer;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 2px 2px 15px 5px darkgrey;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.saveButton {
+    animation: anim-back 1s forwards;
+  border-radius: 50px;
+  background-color: rgba(163,22,33, 1);
+  border: 1px solid rgba(163,22,33, 0.7);
+  box-shadow: 3px 3px 50px 5px darkgrey;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  width: 400px;
+  height: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.saveButton:hover {
+    animation: anim 0.5s forwards;
+}
+
+@keyframes anim {
+    from {
+        top: 0;
+        border: 1px solid #A31621;
+        color: white;
+    }
+    to {
+        top: 100px;
+        border: 2px solid white;
+        font-size: 18px;
+    }
+}
+
+@keyframes anim-back {
+    from {
+        top: 100px;
+        border: 2px solid white;
+        color: white;
+        font-size: 18px;
+    }
+    to {
+        top: 0;
+        border: 1px solid #A31621;
+        font-size: 17px;
+    }
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.center{
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+    transition: all 0.3s ease;
+    display: block;
+    width: 60%;
+    left: 20%;
+    top: 15%;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px darkgrey;
+    position: fixed;
+    background-color: white; 
+}
+
+.container.closed {
+    transition: all 0.3s ease;
+    display: none;
+}
+
+.btn_cancel{
+    /*transition: all 0.3s ease;*/
+  margin: auto;
+  width: 110px;
+  height: 40px;
+  background-color: #A31621;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn_cancel:hover{
+    transition: all 0.3s ease;
+    width: 115px;
+    height: 42.5px;
+    margin-bottom: -2.5px;
+    cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+#parEdit {
+    animation: questions-back 0.5s forwards;
+    border-radius: 10px;
+    border-color: black;
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    background-color: #A31621;
+    box-shadow: 2px 2px 15px 5px darkgrey;
+    margin-bottom: 30px;
+}
+
+#parEdit:hover {
+    animation: questions 0.5s forwards;
+}
+
+#parEditButton{
+  border-radius: 10px;
+  border-color: black;
+  width: 100%; height: 100%; background-color: #A31621;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#parEditButton:hover{
+    cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@keyframes questions {
+    from {
+        top: 0;
+    }
+    to {
+        top: 100%;
+        width: 23%;
+        height: 75px;
+        background-color: black;
+        box-shadow: 2px 2px 15px 5px darkgrey;
+    }
+}
+
+@keyframes questions-back {
+    from {
+        top: 100%;
+        width: 23%;
+        height: 75px;
+        background-color: black;
+        box-shadow: 2px 2px 15px 5px darkgrey;
+    }
+    to {
+        top: 0;
+        width: 20%;
+        height: 70px;
+        background-color: #A31621;
+    }
+}
+
+img[src="parEditImg.png"] {
+  display: block;
+  max-width: 20%;
+  margin: auto;
+}
+
+body{
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+

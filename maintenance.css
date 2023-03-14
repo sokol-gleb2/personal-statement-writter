@@ -1,0 +1,9 @@
+img[src="AtlasLogo.png"] {
+  display: block;
+  max-width: 7%;
+  margin-left: 10px;
+}
+
+p {
+    font-family: Helvetica;
+}

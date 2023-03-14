@@ -1,0 +1,126 @@
+.goBack{
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 10%;
+  height: 40px;
+  display: flex;
+  box-shadow: 2px 2px 15px 2px darkgrey;
+}
+
+.goBack:hover {
+    cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.arrow{
+  /* border: 1px solid red; */
+  /* display: none; */
+  /* visibility: hidden; */
+  float: left;
+}
+
+#arrow{
+  display: none;
+  margin: auto;
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
+.writing{
+  /* border: 1px solid green; */
+  width: 80%;
+  text-align: center;
+}
+
+#writing{
+  margin: auto;
+  margin-top: 12px;
+}
+
+.faq{
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+#faq{
+  font-size: 35px;
+  color: #a31621;
+  font-weight: bold;
+}
+
+.questions{
+  width: 95%;
+  margin: auto;
+}
+
+.mainQs{
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0.5%;
+  background-color: rgba(225, 206, 207, 0.7);
+  padding-left: 15px;
+  box-shadow: 2px 2px 10px 5px darkgrey;
+  font-family: Helvetica;
+
+}
+
+
+
+.qa{
+  font-weight: bold;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.saveButton {
+  border-radius: 50px;
+  background-color: #a31621;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  width: 250px;
+  height: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.saveButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.saveButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.saveButton:hover span {
+  padding-right: 25px;
+}
+
+.saveButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body{
+  font-family: Helvetica;
+  background-image: url('neutral-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
